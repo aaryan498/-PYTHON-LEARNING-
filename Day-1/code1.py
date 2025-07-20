@@ -52,14 +52,5 @@ tuple1= (("parrot","parrow"),(5,7.9)) # Tuple ~ Immutable, Uses ()
 print(tuple1,type(tuple1))
 dict1= {"name":"Aaryan","age":19,"CanVote":True} # Dictionary ~ Links one with another, use {}
 print(dict1, type(dict1))
-
-
 print("\n\n")
 print("THIS IS END OF","#PythonPractice","#Day1",sep="~~")
-
-
-
-
- 
-
-
