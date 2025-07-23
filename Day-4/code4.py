@@ -250,6 +250,30 @@ def func1():
 tell=func1()
 print(tell)
 
+
+# Raising Custom Errors
+
+# Illustration 1:
+a=int(input("Enter number between 4 and 9: "))
+if (a<4 or a>9):
+    raise ValueError("Value should be between 4 and 9: ")
+
+# Illustration 2:
+a=input("Enter number between 4 and 9: ")
+def func1(n):
+    try:
+        m=int(n)
+        return "integer"
+    except:
+        return "string"
+type=func1(a)
+if(type=="integer"):
+    if (int(a)<4 or int(a)>9):
+        raise ValueError("Value should be between 4 and 9: ")
+if(type=="string"):
+    if (a!="quit"):
+        raise ValueError("Enter quit to skip this error")
+
 # End of DAY-4
 print("\n\n")
 print("THIS IS END OF","#PythonPractice","#Day4",sep="~~")
