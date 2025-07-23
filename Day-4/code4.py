@@ -6,9 +6,9 @@
 4. Sets and it's Operations
 5. Dictionary and it's Operations
 6. FOR LOOP with ELSE in python
-7. ERROR HANDLING IN python
+7. ERROR HANDLING IN python.
+8. Raising Custom Errors
 '''
-
 
 
 
