@@ -11,6 +11,7 @@
 NOTE: To see the result of various Illustrations in File Handling 'comment out' other Illustrations to remove their effects.
 Use Manual checking in case of File handling
 '''
+import os
 
 
 
@@ -142,8 +143,9 @@ print(f"The global value of x after calling function is {x}")
 # FILE HANDLING IN PYTHON ~ VERY VERY VERY IMPORTANT
 
 # Illustration 1: Reading in File Handling
+# print(os.getcwd())  # Shows where Python is looking for the file
 f=open("myfile.txt","r")
-# print(f)
+print(f)
 text_data=f.read()
 print(text_data)
 f.close()
@@ -200,7 +202,7 @@ f1.close()
 with open('myfile2.txt','w') as f1:
     f1.write("REWRITING while using 'with'")
 with open('myfile2.txt','r') as f1:
-    text=f1.read()
+    text=f1.read(5)
     print(text)
 
 # Illustration 5: TO read a file line by line ~ readline()
