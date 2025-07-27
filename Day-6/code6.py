@@ -1,3 +1,19 @@
+# Topics Covered:
+'''
+1. Use of seek(), tell() and truncate() function in File Handling in Python
+2. Lambda Functions in python ~ One liner functions
+3. Use of map() and filter() and reduce() in python
+4. Use of 'is' in Python and comparison of 'is' vs. '==' in python
+5. OBEJCT ORIENTED PROGRAMMING IN PYTHON [OOPS]
+6. Classes and Objects in Python
+7. Using Constructor to create Objects in python
+'''
+
+
+
+
+
+
 # Use of seek(), tell() and truncate() function in File Handling in Python 
 
 # Illustration 1: seek() and tell()
@@ -178,3 +194,7 @@ g=person("Aditya Singh", "20", "Male", "Student")
 e.info()
 f.info()
 g.info()
+
+# End of DAY-6
+print("\n\n")
+print("THIS IS END OF","#PythonPractice","#Day6",sep="~~")
