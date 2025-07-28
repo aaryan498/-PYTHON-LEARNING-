@@ -11,7 +11,7 @@ Each day, I create a new folder like `Day-1`, `Day-2`, and so on. Inside each fo
 - **Day-2/** → `code2.py`   
 - **Day-3/** → `code3.py`  
 - **Day-4/** → `code4.py`
-*(More coming soon as I progress)*  
+*(And so on like this...!)*  
 
 ---
 
@@ -22,8 +22,10 @@ Each day, I create a new folder like `Day-1`, `Day-2`, and so on. Inside each fo
 | Day-2    | ✅ Done |
 | Day-3    | ✅ Done |
 | Day-4    | ✅ Done |
-| Day-5    | 🔄 In Progress |
-
+| Day-5    | ✅ Done |
+| Day-6    | ✅ Done |
+| Day-7    | ✅ Done |
+| Day-8    | 🔄 In Progress |
 ---
 
 ## 🔥 Goals
